@@ -1,0 +1,19 @@
+.question-container {
+  margin-bottom: 20px;
+}
+
+.question-number {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 26px; /* Updated size for Question 1/5 heading */
+}
+
+.question-text {
+  font-family: 'Haffer XH', sans-serif;
+  font-weight: 400;
+  font-size: 16px; /* Updated size for question text */
+  line-height: 150%;
+  letter-spacing: 0%;
+  width: 640px;
+  height: 24px;
+}

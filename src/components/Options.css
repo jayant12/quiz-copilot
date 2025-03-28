@@ -1,0 +1,43 @@
+.options-container {
+  margin-bottom: 20px;
+}
+
+.option {
+  margin-bottom: 10px;
+  width: 640px;
+  height: 45px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--color-border-primary, #CCCCCC);
+  padding: 12px;
+  gap: 10px;
+  background: var(--color-background-primary, #FFFFFF); /* Ensure background is light */
+  color: var(--color-font-primary, #000000); /* Ensure font color is dark */
+  display: flex;
+  align-items: center;
+  cursor: pointer; /* Make the entire option clickable */
+}
+
+.option.correct {
+  border-color: var(--color-correct-border, #0E5642); /* Dark green border */
+  background: var(--color-correct-background, #F4FDEC); /* Light green background */
+}
+
+.option.incorrect {
+  border-color: var(--color-incorrect-border, #FF0000); /* Red border */
+  background: var(--color-incorrect-background, #FFF6F5); /* Light red background */
+}
+
+.option:hover {
+  background-color: var(--color-hover-background, #F0F0F0); /* Add hover effect */
+}
+
+.radio-input {
+  margin-right: 10px;
+  pointer-events: none; /* Prevent input from blocking the div click */
+}
+
+.option-label {
+  font-size: 14px; /* Updated size for option text */
+}

@@ -1,6 +1,8 @@
 {
   "name": "quiz-copilot",
   "version": "0.1.0",
+  "homepage": "https://jayant12.github.io/quiz-copilot",
+  "description": "A quiz application powered by OpenAI's GPT-3.5-turbo model.",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -35,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
