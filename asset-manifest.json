@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/quiz-copilot/static/css/main.3338c1da.css",
+    "main.js": "/quiz-copilot/static/js/main.edcf47de.js",
+    "static/js/453.eeac108a.chunk.js": "/quiz-copilot/static/js/453.eeac108a.chunk.js",
+    "index.html": "/quiz-copilot/index.html",
+    "main.3338c1da.css.map": "/quiz-copilot/static/css/main.3338c1da.css.map",
+    "main.edcf47de.js.map": "/quiz-copilot/static/js/main.edcf47de.js.map",
+    "453.eeac108a.chunk.js.map": "/quiz-copilot/static/js/453.eeac108a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3338c1da.css",
+    "static/js/main.edcf47de.js"
+  ]
+}
